@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <style>
+       
+       @font-face {
+         font-family: 'roboto-black';
+         src: local('roboto-black'),url("font/Roboto-Black.ttf");
+         font-style: normal;
+       }
+       body{
+         margin: 0px;
+       }
+       .watermarked:after {
+        color: #00000080;
+        content: 'Innov';
+        letter-spacing: 200px;
+        word-spacing: 0em;
+        transform: rotate(0deg);
+        display: flex;
+        font-size: 200px;
+        align-items: center;
+        position: absolute;
+        justify-content: end;
+        top: 19.2%;
+        right: -10%;
+        z-index: -1;
+        font-family: 'roboto-black';
+        }
+        .flex{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .div1{
+            width: 33.33%;
+            height: 40vh;
+        }
+        .color1{
+            background-color:#000000e0;
+        }
+        .color2{
+            background-color: #ff0000e0;
+        }
+        
+     </style>
+   </head>
+   <body>
+     <div class="flex-head">
+      <div class="logo">
+        <img src="" alt="">
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Features</li>
+          <li>Products</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+     </div>
+    <div class="watermarked" data-watermark="howbloggerz">
+
+    </div>
+    <div class="flex">
+      <div class="div1 color1">
+
+      </div>
+      <div class="div1 color2">
+
+      </div>
+      <div class="div1 color1">
+
+      </div>
+    </div>
+
+  </body>
+</html>
