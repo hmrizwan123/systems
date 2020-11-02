@@ -11,6 +11,29 @@
        body{
          margin: 0px;
        }
+       .flex-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+  }
+  .nav-bar ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 20px;
+    float: left;
+    padding: 0px 20px 10px 20px;
+    opacity: 0.5;
+    font-family: 'roboto-black';
+  }
+  .nav-bar ul li:hover{
+    opacity: 1;
+    border-bottom: 1px solid #ffffff;
+  }
        .watermarked:after {
         color: #00000080;
         content: 'Innov';
@@ -23,7 +46,7 @@
         position: absolute;
         justify-content: end;
         top: 19.2%;
-        right: -10%;
+        right: 0%;
         z-index: -1;
         font-family: 'roboto-black';
         }
@@ -41,7 +64,67 @@
         .color2{
             background-color: #ff0000e0;
         }
-        
+        .flex{
+          display: flex;
+        }
+        .width{
+          width: 66.66%;
+          height: 35vh;
+          /* padding: 20px; */
+        }
+        .blue{
+          background-color: #00dcff;
+          width: 33.33%;
+          height: 35vh;
+        }
+        .heading1{
+          font-family: 'roboto-black';
+          font-size: 16px;
+          color: white;
+        }
+        .heading{
+          font-family: 'roboto-black';
+          font-size: 18px;
+          color: aqua;
+        }
+        .para{
+          font-size: 14px;
+          font-family: 'roboto-black';
+          color: white;
+          width: 80%;
+          display: flex;
+
+        }
+        .back-img{
+          background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5596z2BCR9KmT1KeRBrOQa/4070fd4e2f1a13f71c2c46afeb18e41c/shutterstock_451077043-hero1.jpg?fit=fill&w=800&h=400);
+          height: 50vh;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+        }
+        .back{
+          background: #0000008c;
+          height: 30vh;
+          width: 60%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+        }
+        .about{
+          font-size: 18px;
+          font-family: 'roboto-black';
+          padding: 20px;
+          color: greenyellow;
+        }
+        .parag{
+          font-size: 14px;
+          font-family: 'roboto-black';
+          color: #ffffff;
+          padding: 20px;
+        }
      </style>
    </head>
    <body>
@@ -71,6 +154,42 @@
       </div>
       <div class="div1 color1">
 
+      </div>
+    </div>
+    <div class="flex">
+      <div class="color1 width">
+        <h3 class="heading1">
+          Welcome to the world of 
+        </h3>
+        <h2 class="heading">
+          INNOVATION
+        </h2>
+        <p class="para">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quisquam maiores explicabo qui libero non eaque, accusamus
+           deserunt reprehenderit dolorem inventore animi enim. Nostrum officia 
+           maiores ad quo placeat deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Quam porro, ducimus saepe blanditiis iure repellendus quos eum dolore,
+           sapiente quasi assumenda ea tempora adipisci. Iste odit doloremque sit eius fugiat!
+        </p>
+      </div>
+      <div class="blue">
+
+      </div>
+      <div class="back-img">
+        <div class="back">
+          <div>
+            <h3 class="about">
+              About us
+            </h3>
+            <p class="parag">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odit aliquid rerum optio iste eum 
+              voluptates adipisci dignissimos ex. Dolor quae consectetur dignissimos 
+              eveniet? Rem mollitia optio odio incidunt similique? Lorem ipsum dolor sit amet consectetur 
+              adipisicing elit. Atque ipsa, ullam similique voluptatibus amet placeat, sit architecto sequi id beatae
+               delectus! Vitae, dolore aperiam. Exercitationem similique excepturi reprehenderit voluptatum cumque.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 

@@ -1,0 +1,23 @@
+.flex-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  position: fixed;
+  width: 100%;
+}
+.nav-bar ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 20px;
+  float: left;
+  padding: 0px 20px 10px 20px;
+  opacity: 0.5;
+  font-family: 'roboto-black';
+}
+.nav-bar ul li:hover {
+  opacity: 1;
+  border-bottom: 1px solid #ffffff;
+}
